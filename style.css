@@ -70,10 +70,10 @@ h1{
     color:black;
     font-family: 'Kaushan Script';
     font-weight:700;
-    text-shadow: 1px 1px 1px orange,
+    /* text-shadow: 1px 1px 1px orange,
                  2px 2px 2px lightcoral,
                  3px 3px 3px brown,
-                 4px 4px 4px beige;
+                 4px 4px 4px beige; */
 }
 
 
@@ -81,18 +81,19 @@ h2{
     font-size:55px;
     color:black;
     font-family: 'Kaushan Script';
-    text-shadow: 1px 1px 1px orange,
+    /* text-shadow: 1px 1px 1px orange,
     2px 2px 2px lightcoral,
     3px 3px 3px brown,
-    4px 4px 4px beige;}
+    4px 4px 4px beige; */
+}
 
 h3{
     font-size:32px;
     color:black;
     font-family: 'Kaushan Script';
-    text-shadow: 1px 1px 1px orange,
+    /* text-shadow: 1px 1px 1px orange,
                  2px 2px 2px lightcoral,
-                 4px 4px 4px beige;
+                 4px 4px 4px beige; */
 }
 
 /* Section info */
