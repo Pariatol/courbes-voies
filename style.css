@@ -1,0 +1,273 @@
+#ceinture{
+    align-self:stretch;
+}
+
+/* Général */
+
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    background: #FCF5D9;
+}
+
+.card{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+         box-shadow: 0 10px 6px -6px #777;
+}
+
+
+/* Nav */
+
+.navbar{
+    background-color:#FCF5D9;
+    box-shadow: 0px 2px 2px lightyellow;}
+
+.navbar-brand{
+    font-size:23px;
+    font-family: 'Kaushan Script';
+    color:black;
+}
+
+.navbar-brand:hover{
+    text-shadow: 1px 1px 1px orange,
+                 2px 2px 2px lightcoral,
+                 3px 3px 3px brown,
+                 4px 4px 4px beige;
+}
+
+.navbar-toggler-icon{
+    color:black;
+}
+
+#navbarCollapse a{
+    font-size:18px;
+    color:black;
+}
+
+#navbarCollapse a:hover{
+    text-decoration:underline;
+    font-weight:550;
+}
+
+/* Header */
+
+header{
+    background: url('img/imgBG2.jpg');
+    background-size:cover;
+    height: 100vh;
+}
+
+.text-intro{
+    padding-top:180px;
+    padding-bottom: 200px;
+}
+
+
+h1{
+    font-size:80px;
+    color:black;
+    font-family: 'Kaushan Script';
+    font-weight:700;
+    text-shadow: 1px 1px 1px orange,
+                 2px 2px 2px lightcoral,
+                 3px 3px 3px brown,
+                 4px 4px 4px beige;
+}
+
+
+h2{
+    font-size:55px;
+    color:black;
+    font-family: 'Kaushan Script';
+    text-shadow: 1px 1px 1px orange,
+    2px 2px 2px lightcoral,
+    3px 3px 3px brown,
+    4px 4px 4px beige;}
+
+h3{
+    font-size:32px;
+    color:black;
+    font-family: 'Kaushan Script';
+    text-shadow: 1px 1px 1px orange,
+                 2px 2px 2px lightcoral,
+                 4px 4px 4px beige;
+}
+
+/* Section info */
+
+
+#info h2{
+    padding-top:10px;
+}
+
+#info h3{
+    font-size:25px;
+}
+
+#info img {
+    height:auto;
+    width:300px;
+    margin-left:35%;
+    padding-top:20px;
+    clip-path: circle(45%);
+    border-radius: 5px solid orange;
+}
+
+
+/* Trois icônes */
+
+#home-icons{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-top: 1px dashed orange;
+}
+
+
+
+/* Section réalisations */
+.card{
+    position:relative;
+}
+
+.clickMe{
+    background-color: #f7f7f7;
+    color:black;
+    position:absolute;
+    font-family: "Arial";
+    font-size:12px;
+    border-radius:3px;
+    padding:2px;
+    bottom:85%;
+    left:10%;
+    transform: translateY(100%);
+    opacity:0;
+}
+
+
+.card:hover .clickMe{
+    opacity:1;
+}
+
+.card:hover{
+    /* transform:scale(1.05); */
+    background-color: blanchedalmond;
+}
+
+.card img{
+    object-fit: cover;
+    width: 450px;
+    height: 450px;
+}
+
+/* Section ébénisterie */
+#ebenisterie a{
+    text-decoration:none;
+    color:black;
+}
+
+/* Section Restaurations */
+#restaurations a{
+    text-decoration:none;
+    color:black;
+}
+
+/* Section cuir amhe */
+#cuiramhe a{
+    text-decoration:none;
+    color:black;
+}
+
+
+/* Section contacts */
+#contact{
+    border-top: 1px dashed orange;
+}
+
+#contact h2{
+    padding-top:10px;
+}
+
+.fa-phone, .fa-at{
+    font-size: 25px;
+}
+
+#contact-liens a{
+    text-decoration:none;
+    color:black;
+    font-size: 25px;
+}
+
+#contact-liens a:hover{
+    text-decoration:underline;
+}
+
+#partenaires img{
+    height:35%;
+    width:35%;
+}
+
+#partenaires img:hover{
+    transform:scale(1.1);
+}
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+    header{
+        height:60vh;
+    }
+
+    .text-intro{
+        padding-top:100px;
+    }
+
+    .preTxt{
+       font-size:20px; 
+    }
+
+    h1{
+        font-size:45px;
+    }
+
+    #info img{
+        margin-left:5%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+
+    .preTxt{
+       font-size:15px; 
+    }
+
+    h1{
+        font-size:28px;
+    }
+
+    .text-intro a{
+        transform: scale(0.8);
+    }
+
+    #clients{
+        padding-bottom:35px;
+    }
+}
+
+@media screen and (max-width:414px){
+
+    .text-intro{
+        padding-top:150px;
+    }
+    h1{
+        font-size:30px;
+    }
+    h2{
+        font-size:25px;
+    }
+    h3{
+        font-size:16px;
+    }
+}
