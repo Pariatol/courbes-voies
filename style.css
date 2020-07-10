@@ -56,7 +56,7 @@ body{
 header{
     background: url('img/imgBG2.jpg');
     background-size:cover;
-    height: 92vh;
+    height: 95vh;
 }
 
 .text-intro{
@@ -84,18 +84,18 @@ h2{
     text-shadow: 1px 1px 1px orange,
     2px 2px 2px lightcoral,
     3px 3px 3px brown,
-    4px 4px 4px beige;
-}
+    4px 4px 4px beige;}
 
 h3{
     font-size:32px;
     color:black;
     font-family: 'Kaushan Script';
-    text-shadow: 1px 1px 1px rgb(236, 193, 173);
+    text-shadow: 1px 1px 1px orange,
+                 2px 2px 2px lightcoral,
+                 4px 4px 4px beige;
 }
 
 /* Section info */
-
 
 #info h2{
     padding-top:10px;
@@ -108,10 +108,16 @@ h3{
 #info img {
     height:auto;
     width:300px;
-    margin-left:35%;
+    margin:0 auto;
     padding-top:20px;
     clip-path: circle(45%);
     border-radius: 5px solid orange;
+}
+
+.portrait{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -123,7 +129,10 @@ h3{
     border-top: 1px dashed orange;
 }
 
-
+.img-fluid{
+    width:550px;
+    height:550px;
+}
 
 /* Section réalisations */
 .card{
@@ -229,10 +238,6 @@ h3{
     h1{
         font-size:45px;
     }
-
-    #info img{
-        margin-left:5%;
-    }
 }
 
 @media screen and (max-width: 500px) {
@@ -268,11 +273,5 @@ h3{
     }
     h3{
         font-size:16px;
-    }
-}
-
-@media (max-width:320px){
-    .navbar-brand{
-        font-size:1.2rem;
     }
 }
